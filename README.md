@@ -34,19 +34,6 @@ Local AI-powered log analysis
 Root-cause and troubleshooting guidance
 Safety filtering of AI recommendations
 Downloadable analysis report
-
-Project Structure
-ai-log-analyzer/
-├── app.py
-├── compose.yaml
-├── Dockerfile
-├── requirements.txt
-├── .dockerignore
-├── .gitignore
-├── templates/
-│   └── index.html
-└── static/
-    └── style.css
     
 Setup
 1. Clone the repository
@@ -69,6 +56,7 @@ http://localhost:5001
 Paste a log, select the source or use Auto, and click Analyze Log.
 
 Analysis Flow
+
 Log Input
    ↓
 Sensitive Data Masking
@@ -83,26 +71,6 @@ Safety Validation
    ↓
 AI Analysis
 
-Useful Commands
-# View application logs
-docker compose logs -f ai-log-analyzer
-
-# View Ollama logs
-docker compose logs -f ollama
-
-# Stop
-docker compose stop
-
-# Start
-docker compose start
-
-# Restart
-docker compose restart
-
-# Remove containers
-docker compose down
-
-Note: Do not use docker compose down -v unless you intentionally want to delete the Ollama model volume and download the model again.
 
 Security
 
