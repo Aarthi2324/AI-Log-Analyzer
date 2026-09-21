@@ -60,17 +60,27 @@ Analysis Flow
 Log Input
 
    ↓
+   
 Sensitive Data Masking
 
    ↓
+   
 Source Detection
+
    ↓
+   
 Statistics
+
    ↓
+   
 Ollama / Qwen2.5-Coder
+
    ↓
+   
 Safety Validation
+
    ↓
+   
 AI Analysis
 
 
