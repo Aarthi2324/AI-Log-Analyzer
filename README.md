@@ -16,6 +16,7 @@ Ollama
  |
  v
 Qwen2.5-Coder 3B
+
 Tech Stack
 Python / Flask
 Docker & Docker Compose
@@ -23,6 +24,7 @@ Ollama
 Qwen2.5-Coder 3B
 HTML / CSS / JavaScript
 Gunicorn
+
 Key Features
 Automatic log-source detection
 Error, warning, and information statistics
@@ -32,6 +34,7 @@ Local AI-powered log analysis
 Root-cause and troubleshooting guidance
 Safety filtering of AI recommendations
 Downloadable analysis report
+
 Project Structure
 ai-log-analyzer/
 ├── app.py
@@ -44,6 +47,7 @@ ai-log-analyzer/
 │   └── index.html
 └── static/
     └── style.css
+    
 Setup
 1. Clone the repository
 git clone <YOUR_GITHUB_REPOSITORY_URL>
@@ -78,6 +82,7 @@ Ollama / Qwen2.5-Coder
 Safety Validation
    ↓
 AI Analysis
+
 Useful Commands
 # View application logs
 docker compose logs -f ai-log-analyzer
