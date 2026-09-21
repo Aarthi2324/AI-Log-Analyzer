@@ -58,8 +58,10 @@ Paste a log, select the source or use Auto, and click Analyze Log.
 Analysis Flow
 
 Log Input
+
    ↓
 Sensitive Data Masking
+
    ↓
 Source Detection
    ↓
